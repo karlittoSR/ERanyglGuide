@@ -61,7 +61,7 @@ Détail complet de la run : [le tableur de route](https://docs.google.com/spread
 
 ### Manette ou clavier-souris ?
 
-Les meilleurs runners utilisent les deux, donc c'est à toi de choisir. Si tu as commencé à la manette, je te recommande de rester dessus.
+Les top runners utilisent les deux, donc c'est à toi de choisir. Si tu as commencé à la manette, je te recommande de rester dessus.
 
 - **Clavier-souris (KBM)** : trajectoires plus droites, contrôle très précis du positionnement. Si tu vises le meilleur SOB possible, c'est KBM. Ex : Forsa, Kemist, Yuta ou moi.
 - **Manette** : certains skips sont plus faciles à la manette. Ex : Poleuky ou Iridium.
