@@ -22,6 +22,7 @@ export default defineConfig({
         sidebar: [
           {
             text: 'Any% Glitchless',
+            collapsed: false,
             items: [{ text: 'Death Poker (1.07)', link: '/guide/death-poker' }]
           }
         ],
@@ -45,6 +46,7 @@ export default defineConfig({
         sidebar: [
           {
             text: 'Any% Glitchless',
+            collapsed: false,
             items: [{ text: 'Death Poker (1.07)', link: '/fr/guide/death-poker' }]
           }
         ],
