@@ -1,12 +1,6 @@
 ---
 title: Any% Glitchless — Death Poker (1.07)
-source_rev: ALIGNED
-source_date: 2026-08-07
 ---
-
-<div class="stale-notice">
-Version aligned with the English page as of <strong>2026-08-07</strong>.
-</div>
 
 # Any% Glitchless — Death Poker (1.07)
 
