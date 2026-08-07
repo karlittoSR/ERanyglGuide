@@ -10,11 +10,4 @@ hero:
     - theme: alt
       text: Changelog
       link: /changelog
-features:
-  - title: Route
-    details: Step-by-step path through the run, with the trilingual route sheet.
-  - title: Boss tips
-    details: Openers, backup strategies and RNG levels for every fight.
-  - title: Practice
-    details: How to build saves and train skips without burning out.
 ---
