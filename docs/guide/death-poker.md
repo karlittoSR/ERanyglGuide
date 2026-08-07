@@ -1,12 +1,6 @@
 ---
 title: Any% Glitchless — Death Poker (1.07)
-source_rev: ALIGNED
-source_date: 2026-08-07
 ---
-
-<div class="stale-notice">
-Version aligned with the English page as of <strong>2026-08-07</strong>.
-</div>
 
 # Any% Glitchless — Death Poker (1.07)
 
@@ -61,7 +55,7 @@ It's up to personal preference. What I feel, having done both:
 
 ### Keyboard-mouse or controller?
 
-The top runners use both, so it's your choice. If you started on controller, I recommend sticking to it.
+The best runners use both, so it's your choice. If you started on controller, I recommend sticking to it.
 
 - **KBM**: straighter lines, very precise control of positioning. If you aim for the best SOB possible, it's KBM. Ex: Forsa, Kemist, Yuta or me.
 - **Controller**: some skips are much easier on controller. Ex: Poleuky or Iridium.
@@ -243,7 +237,7 @@ Fight breakdown:
 
 There are several openers. I usually go with JR2 JR2 R1, but sometimes JR2 R1 JR2 works better. Train and see what you prefer.
 
-At the end of the fight, don't go between his legs — you can receive a magma rock right next to you and explode. [aim for the left part of his right leg](https://youtu.be/9a0XocTjluA?t=3164) and stay there:
+At the end of the fight, don't go between his legs: [aim for the left part of his right leg](https://youtu.be/9a0XocTjluA?t=3164) and stay there:
 
 ![Fire Giant positioning](https://www.speedrun.com/static/blob/7z33j29z.png)
 
