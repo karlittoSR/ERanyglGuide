@@ -244,7 +244,7 @@ Vidéo explicative du combat :
 
 Il y a plusieurs openers. J'utilise souvent JR2 JR2 R1, mais parfois JR2 R1 JR2 est mieux. Entraîne-toi et regarde ce que tu préfères.
 
-En fin de combat, ne passe pas entre ses jambes : [vise la partie gauche de sa jambe droite](https://youtu.be/9a0XocTjluA?t=3164) et reste là :
+En fin de combat, ne passe pas entre ses jambes, tu peux recevoir un rocher de magma juste à côté de toi et exploser : [vise la partie gauche de sa jambe droite](https://youtu.be/9a0XocTjluA?t=3164) et reste là :
 
 ![Positionnement Géant de feu](https://www.speedrun.com/static/blob/7z33j29z.png)
 
