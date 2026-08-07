@@ -237,7 +237,7 @@ Fight breakdown:
 
 There are several openers. I usually go with JR2 JR2 R1, but sometimes JR2 R1 JR2 works better. Train and see what you prefer.
 
-At the end of the fight, don't go between his legs: [aim for the left part of his right leg](https://youtu.be/9a0XocTjluA?t=3164) and stay there:
+At the end of the fight, don't go between his legs — you can receive a magma rock right next to you and explode. [aim for the left part of his right leg](https://youtu.be/9a0XocTjluA?t=3164) and stay there:
 
 ![Fire Giant positioning](https://www.speedrun.com/static/blob/7z33j29z.png)
 
