@@ -17,7 +17,6 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Guides', link: '/guide/death-poker' },
-          { text: 'Changelog', link: '/changelog' },
           { text: 'speedrun.com', link: 'https://www.speedrun.com/eldenring' }
         ],
         sidebar: [
@@ -41,7 +40,6 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Guides', link: '/fr/guide/death-poker' },
-          { text: 'Journal', link: '/fr/changelog' },
           { text: 'speedrun.com', link: 'https://www.speedrun.com/eldenring' }
         ],
         sidebar: [
