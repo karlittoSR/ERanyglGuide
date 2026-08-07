@@ -15,6 +15,7 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       themeConfig: {
+        outline: { level: [2, 3] },
         nav: [
           { text: 'Guides', link: '/guide/death-poker' },
           { text: 'speedrun.com', link: 'https://www.speedrun.com/eldenring' }
@@ -39,6 +40,7 @@ export default defineConfig({
       lang: 'fr',
       link: '/fr/',
       themeConfig: {
+        outline: { label: 'Sur cette page', level: [2, 3] },
         nav: [
           { text: 'Guides', link: '/fr/guide/death-poker' },
           { text: 'speedrun.com', link: 'https://www.speedrun.com/eldenring' }
