@@ -7,7 +7,4 @@ hero:
     - theme: brand
       text: Any% Glitchless — Death Poker
       link: /guide/death-poker
-    - theme: alt
-      text: Changelog
-      link: /changelog
 ---
