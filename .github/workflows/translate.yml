@@ -1,9 +1,9 @@
 name: Auto-translate FR to EN
 
-# Quand une page FR du guide change sur main, ce workflow traduit la page
-# en anglais via l'API OpenAI et ouvre une Pull Request avec la version EN.
-# Tu relis la PR, tu merges, le site se redeploie. Le francais reste la
-# reference ; l'anglais n'est jamais publie sans ta relecture.
+# Quand une page FR du guide change sur main, ce workflow envoie a l'API :
+# le fichier FR complet, le fichier EN actuel, ET le diff exact de la modif.
+# Le modele n'a le droit de changer que ce que le diff couvre — le reste de
+# l'anglais est reproduit a l'identique. Une PR est ouverte pour relecture.
 
 on:
   push:
@@ -29,8 +29,10 @@ jobs:
           BEFORE="${{ github.event.before }}"
           if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
             FILES=$(git ls-files 'docs/fr/guide/*.md')
+            echo "before=" >> "$GITHUB_OUTPUT"
           else
             FILES=$(git diff --name-only "$BEFORE" "${{ github.sha }}" -- 'docs/fr/guide/*.md' || true)
+            echo "before=$BEFORE" >> "$GITHUB_OUTPUT"
           fi
           echo "Changed FR files:"
           echo "$FILES"
@@ -45,44 +47,62 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CHANGED_FILES: ${{ steps.changed.outputs.files }}
+          BEFORE_SHA: ${{ steps.changed.outputs.before }}
+          HEAD_SHA: ${{ github.sha }}
           MODEL: gpt-4o
         run: |
           python3 - <<'PYEOF'
-          import json, os, sys, urllib.request
+          import json, os, subprocess, urllib.request
 
           API_KEY = os.environ["OPENAI_API_KEY"]
           MODEL = os.environ.get("MODEL", "gpt-4o")
+          BEFORE = os.environ.get("BEFORE_SHA", "")
+          HEAD = os.environ["HEAD_SHA"]
 
-          SYSTEM = """You are translating an Elden Ring speedrunning guide from French to English.
+          SYSTEM = """You are updating the English version of an Elden Ring speedrunning guide
+          after a change was made to the French version. French is the source of truth.
+
           Rules, in order of priority:
           1. Output ONLY the complete English markdown file. No code fences, no commentary.
-          2. Preserve ALL markdown structure, YAML frontmatter, HTML (iframes, divs), links,
-             image URLs and heading levels EXACTLY. Only translate human-readable text.
-             In the frontmatter, translate nothing except a 'title' value if it contains French.
-          3. Keep speedrunning jargon in English as the community writes it: WAR1, WAR2, JR1, JR2,
-             R1, R2, WA, QO, quit-out, poise break, opener, backup, stun, roll, grab, skip, cheese,
-             buffer sprint, one-cycle, nodeath, onehit, gold RNG, SOB, PB, BPT, IGT, downpatch,
-             site of grace, Phalanx, squat. Boss and place names use their English game names
-             (Volatile funeraire = Death Rite Bird, Geant de feu = Fire Giant, Abductrices =
-             Abductors, vierges = maidens, Chambre de la Reine = Queen's Bedchamber).
-             Community nicknames like Goldfrey and Gilika stay unchanged.
-          4. You are given the CURRENT English version as a style reference. Reuse its phrasing
-             wherever the French meaning has not changed, so the diff stays minimal. Where the
-             French differs from the current English, the FRENCH is the source of truth.
-          5. Address the reader as "you". Keep the tone direct and practical, like the current
-             English version."""
+          2. SCOPE: you are given the exact diff of what changed in French. Modify the English
+             ONLY where that diff requires it. Every other line of the current English file must
+             be reproduced byte-for-byte, even if you would phrase it differently. Do not
+             re-translate, rephrase, reformat or "improve" untouched passages.
+          3. Never add elements that are absent from the current English file (frontmatter keys,
+             banners, divs) unless the French diff itself introduces new content. The English
+             frontmatter contains only the title line.
+          4. Preserve ALL markdown structure, HTML, links, image URLs and heading levels exactly.
+          5. Keep speedrunning jargon in English as this community writes it: WAR1, WAR2, JR1,
+             JR2, R1, R2, WA, QO, quit-out, poise break, opener, backup, stun, roll, grab, skip,
+             cheese, buffer sprint, one-cycle, nodeath, onehit, gold RNG, SOB, PB, BPT, IGT,
+             downpatch, site of grace, Phalanx, squat. Boss and place names use their English
+             game names (Volatile funeraire = Death Rite Bird, Geant de feu = Fire Giant,
+             Abductrices = Abductors, vierges = virgins, Chambre de la Reine = Queen's
+             Bedchamber). Community nicknames like Goldfrey and Gilika stay unchanged.
+          6. Address the reader as "you". Match the tone of the current English version."""
 
-          def translate(fr_text, en_text):
+          def git_diff(path):
+              if not BEFORE:
+                  return "(initial import - whole file is new)"
+              out = subprocess.run(
+                  ["git", "diff", BEFORE, HEAD, "--", path],
+                  capture_output=True, text=True, check=False,
+              )
+              return out.stdout or "(no textual diff available)"
+
+          def translate(fr_text, en_text, diff_text):
               user = (
-                  "CURRENT ENGLISH VERSION (style reference, may be outdated):\n"
+                  "DIFF OF THE FRENCH CHANGE (defines the ONLY scope you may touch in English):\n"
+                  "-----\n" + diff_text + "\n-----\n\n"
+                  "CURRENT ENGLISH FILE (reproduce byte-for-byte outside the diff scope):\n"
                   "-----\n" + en_text + "\n-----\n\n"
-                  "NEW FRENCH VERSION (source of truth):\n"
+                  "NEW FRENCH FILE (source of truth, for context):\n"
                   "-----\n" + fr_text + "\n-----\n\n"
                   "Produce the full updated English file."
               )
               payload = json.dumps({
                   "model": MODEL,
-                  "temperature": 0.2,
+                  "temperature": 0.1,
                   "max_tokens": 16000,
                   "messages": [
                       {"role": "system", "content": SYSTEM},
@@ -100,7 +120,6 @@ jobs:
               with urllib.request.urlopen(req, timeout=600) as resp:
                   data = json.load(resp)
               out = data["choices"][0]["message"]["content"].strip()
-              # Strip accidental code fences if the model added them anyway
               if out.startswith("```"):
                   out = out.split("\n", 1)[1]
                   if out.rstrip().endswith("```"):
@@ -119,8 +138,9 @@ jobs:
               if os.path.exists(en_path):
                   with open(en_path, encoding="utf-8") as f:
                       en_text = f.read()
+              diff_text = git_diff(fr_path)
               print(f"Translating {fr_path} -> {en_path} ...")
-              result = translate(fr_text, en_text)
+              result = translate(fr_text, en_text, diff_text)
               os.makedirs(os.path.dirname(en_path), exist_ok=True)
               with open(en_path, "w", encoding="utf-8") as f:
                   f.write(result)
@@ -137,8 +157,9 @@ jobs:
           body: |
             Traduction automatique declenchee par une modification de `docs/fr/guide/`.
 
-            **A relire avant merge** : verifie les termes techniques et les nombres
-            (timings, pourcentages, degats). Le francais fait foi.
+            **A relire avant merge** : le diff EN doit correspondre au diff FR,
+            rien de plus. Verifie les termes techniques et les nombres. Le
+            francais fait foi.
 
             Commit source : ${{ github.sha }}
           labels: translation
