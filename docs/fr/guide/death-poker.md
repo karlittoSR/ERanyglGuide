@@ -6,7 +6,6 @@ source_date: 2026-08-07
 
 <div class="stale-notice">
 Version alignée avec la page anglaise au <strong>2026-08-07</strong>.
-En cas de divergence, vérifie le <a href="../../changelog">journal des modifications</a>.
 </div>
 
 # Any% Glitchless — Death Poker (1.07)
