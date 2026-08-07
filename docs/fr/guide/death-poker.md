@@ -6,11 +6,11 @@ title: Any% Glitchless — Death Poker (1.07)
 
 Salut !
 
-Ce [tableur de route](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) vous donne un bon aperçu de la route Any% Glitchless Death Poker (patch 1.07), conçu à la fois pour les nouveaux runners et pour ceux qui cherchent à améliorer leur SOB et leur PB.
+Ce [fichier excel](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) vous donne un bon aperçu de la route Any% Glitchless Death Poker (patch 1.07), conçu à la fois pour les nouveaux runners et pour ceux qui cherchent à améliorer leur SOB et leur PB.
 
 Ce n'est pas un guide complet minute par minute, mais plutôt une liste de conseils et de liens en vue de préparer votre première run. Pour connaître les lignes et avoir une vue globale de la run, rien de mieux que d'observer une run pour être certain de ne rien rater.
 
-Détail complet de la run : [le tableur de route](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) (EN / FR / CN).
+Détail complet de la run : [le fichier excel](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) (EN / FR / CN).
 
 ## Que faire en premier ?
 
