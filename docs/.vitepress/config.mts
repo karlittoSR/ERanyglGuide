@@ -27,10 +27,6 @@ export default defineConfig({
             items: [{ text: 'Death Poker (1.07)', link: '/guide/death-poker' }]
           }
         ],
-        editLink: {
-          pattern: 'https://github.com/karlittoSR/ERanyglGuide/edit/main/docs/:path',
-          text: 'Suggest a change'
-        },
         lastUpdatedText: 'Last updated'
       }
     },
@@ -40,7 +36,6 @@ export default defineConfig({
       lang: 'fr',
       link: '/fr/',
       themeConfig: {
-        outline: { level: [2, 3] },
         nav: [
           { text: 'Guides', link: '/fr/guide/death-poker' },
           { text: 'speedrun.com', link: 'https://www.speedrun.com/eldenring' }
@@ -52,13 +47,9 @@ export default defineConfig({
             items: [{ text: 'Death Poker (1.07)', link: '/fr/guide/death-poker' }]
           }
         ],
-        editLink: {
-          pattern: 'https://github.com/karlittoSR/ERanyglGuide/edit/main/docs/:path',
-          text: 'Proposer une modification'
-        },
         lastUpdatedText: 'Dernière mise à jour',
         docFooter: { prev: 'Précédent', next: 'Suivant' },
-        outline: { label: 'Sur cette page' },
+        outline: { label: 'Sur cette page', level: [2, 3] },
         darkModeSwitchLabel: 'Apparence',
         returnToTopLabel: 'Retour en haut'
       }
