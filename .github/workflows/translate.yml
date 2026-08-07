@@ -1,0 +1,145 @@
+name: Auto-translate FR to EN
+
+# Quand une page FR du guide change sur main, ce workflow traduit la page
+# en anglais via l'API OpenAI et ouvre une Pull Request avec la version EN.
+# Tu relis la PR, tu merges, le site se redeploie. Le francais reste la
+# reference ; l'anglais n'est jamais publie sans ta relecture.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/fr/guide/**'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed FR pages
+        id: changed
+        run: |
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            FILES=$(git ls-files 'docs/fr/guide/*.md')
+          else
+            FILES=$(git diff --name-only "$BEFORE" "${{ github.sha }}" -- 'docs/fr/guide/*.md' || true)
+          fi
+          echo "Changed FR files:"
+          echo "$FILES"
+          {
+            echo "files<<EOFLIST"
+            echo "$FILES"
+            echo "EOFLIST"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Translate with OpenAI
+        if: steps.changed.outputs.files != ''
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+          MODEL: gpt-4o
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, sys, urllib.request
+
+          API_KEY = os.environ["OPENAI_API_KEY"]
+          MODEL = os.environ.get("MODEL", "gpt-4o")
+
+          SYSTEM = """You are translating an Elden Ring speedrunning guide from French to English.
+          Rules, in order of priority:
+          1. Output ONLY the complete English markdown file. No code fences, no commentary.
+          2. Preserve ALL markdown structure, YAML frontmatter, HTML (iframes, divs), links,
+             image URLs and heading levels EXACTLY. Only translate human-readable text.
+             In the frontmatter, translate nothing except a 'title' value if it contains French.
+          3. Keep speedrunning jargon in English as the community writes it: WAR1, WAR2, JR1, JR2,
+             R1, R2, WA, QO, quit-out, poise break, opener, backup, stun, roll, grab, skip, cheese,
+             buffer sprint, one-cycle, nodeath, onehit, gold RNG, SOB, PB, BPT, IGT, downpatch,
+             site of grace, Phalanx, squat. Boss and place names use their English game names
+             (Volatile funeraire = Death Rite Bird, Geant de feu = Fire Giant, Abductrices =
+             Abductors, vierges = maidens, Chambre de la Reine = Queen's Bedchamber).
+             Community nicknames like Goldfrey and Gilika stay unchanged.
+          4. You are given the CURRENT English version as a style reference. Reuse its phrasing
+             wherever the French meaning has not changed, so the diff stays minimal. Where the
+             French differs from the current English, the FRENCH is the source of truth.
+          5. Address the reader as "you". Keep the tone direct and practical, like the current
+             English version."""
+
+          def translate(fr_text, en_text):
+              user = (
+                  "CURRENT ENGLISH VERSION (style reference, may be outdated):\n"
+                  "-----\n" + en_text + "\n-----\n\n"
+                  "NEW FRENCH VERSION (source of truth):\n"
+                  "-----\n" + fr_text + "\n-----\n\n"
+                  "Produce the full updated English file."
+              )
+              payload = json.dumps({
+                  "model": MODEL,
+                  "temperature": 0.2,
+                  "max_tokens": 16000,
+                  "messages": [
+                      {"role": "system", "content": SYSTEM},
+                      {"role": "user", "content": user},
+                  ],
+              }).encode()
+              req = urllib.request.Request(
+                  "https://api.openai.com/v1/chat/completions",
+                  data=payload,
+                  headers={
+                      "Content-Type": "application/json",
+                      "Authorization": "Bearer " + API_KEY,
+                  },
+              )
+              with urllib.request.urlopen(req, timeout=600) as resp:
+                  data = json.load(resp)
+              out = data["choices"][0]["message"]["content"].strip()
+              # Strip accidental code fences if the model added them anyway
+              if out.startswith("```"):
+                  out = out.split("\n", 1)[1]
+                  if out.rstrip().endswith("```"):
+                      out = out.rstrip()[:-3]
+              return out.rstrip() + "\n"
+
+          files = [f.strip() for f in os.environ["CHANGED_FILES"].splitlines() if f.strip()]
+          for fr_path in files:
+              en_path = fr_path.replace("docs/fr/guide/", "docs/guide/", 1)
+              if not os.path.exists(fr_path):
+                  print(f"Skipped (deleted): {fr_path}")
+                  continue
+              with open(fr_path, encoding="utf-8") as f:
+                  fr_text = f.read()
+              en_text = ""
+              if os.path.exists(en_path):
+                  with open(en_path, encoding="utf-8") as f:
+                      en_text = f.read()
+              print(f"Translating {fr_path} -> {en_path} ...")
+              result = translate(fr_text, en_text)
+              os.makedirs(os.path.dirname(en_path), exist_ok=True)
+              with open(en_path, "w", encoding="utf-8") as f:
+                  f.write(result)
+              print(f"Wrote {en_path} ({len(result)} chars)")
+          PYEOF
+
+      - name: Open pull request
+        if: steps.changed.outputs.files != ''
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto-translate/en
+          title: "EN translation update (auto)"
+          commit-message: "Auto-translate: sync English guide with French changes"
+          body: |
+            Traduction automatique declenchee par une modification de `docs/fr/guide/`.
+
+            **A relire avant merge** : verifie les termes techniques et les nombres
+            (timings, pourcentages, degats). Le francais fait foi.
+
+            Commit source : ${{ github.sha }}
+          labels: translation
+          delete-branch: true
