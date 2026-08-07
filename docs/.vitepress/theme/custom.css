@@ -15,6 +15,12 @@
   margin: 1rem 0;
 }
 
+/* Gros titres (niveau 2) du menu "Sur cette page" */
+.VPDocOutlineItem.root > li > a.outline-link {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
 .stale-notice {
   border-left: 3px solid var(--vp-c-brand-2);
   background: var(--vp-c-brand-soft);
