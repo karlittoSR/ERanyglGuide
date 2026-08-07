@@ -1,14 +1,20 @@
 ---
 title: Any% Glitchless — Death Poker (1.07)
+source_rev: ALIGNED
+source_date: 2026-08-07
 ---
+
+<div class="stale-notice">
+Version aligned with the English page as of <strong>2026-08-07</strong>.
+</div>
 
 # Any% Glitchless — Death Poker (1.07)
 
 Hello!
 
-This [route sheet](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) gives you a clear path through the Any% Glitchless Death Poker route (patch 1.07), designed for both new runners and anyone looking to lower their SOB and PB.
+This [route sheet](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) gives you a good overview of the Any% Glitchless Death Poker route (patch 1.07), designed for both new runners and those looking to improve their SOB and PB.
 
-This is not a minute-by-minute walkthrough — it's a set of tips and links to prepare your first run. To learn the lines and get a global view of the run, nothing beats watching a full run so you don't miss anything.
+This is not a complete minute-by-minute guide, but rather a list of tips and links to prepare your first run. To learn the lines and get a global view of the run, nothing beats watching a run to make sure you don't miss anything.
 
 Complete details of the run: [route sheet](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) (EN / FR / CN).
 
@@ -145,7 +151,7 @@ If you both die at the same time and you're not aiming for a sub 56, go pick up 
 
 ### Abductors — 2/10 (bad opener = time loss)
 
-In very rare cases, both virgins attack at the same time: it's usually a death or at least a 30 s loss.
+In very rare cases, both maidens attack at the same time: it's usually a death or at least a 30 s loss.
 
 I recommend **always** using a mana potion before breaking the first one's poise. It's slower but safer for beginners. When confident, you can skip it on good RNG and finish with an R1.
 
