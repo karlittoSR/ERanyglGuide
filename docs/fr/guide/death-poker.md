@@ -1,12 +1,6 @@
 ---
 title: Any% Glitchless — Death Poker (1.07)
-source_rev: ALIGNED
-source_date: 2026-08-07
 ---
-
-<div class="stale-notice">
-Version alignée avec la page anglaise au <strong>2026-08-07</strong>.
-</div>
 
 # Any% Glitchless — Death Poker (1.07)
 
@@ -61,7 +55,7 @@ Détail complet de la run : [le tableur de route](https://docs.google.com/spread
 
 ### Manette ou clavier-souris ?
 
-Les top runners utilisent les deux, donc c'est à toi de choisir. Si tu as commencé à la manette, je te recommande de rester dessus.
+Les meilleurs runners utilisent les deux, donc c'est à toi de choisir. Si tu as commencé à la manette, je te recommande de rester dessus.
 
 - **Clavier-souris (KBM)** : trajectoires plus droites, contrôle très précis du positionnement. Si tu vises le meilleur SOB possible, c'est KBM. Ex : Forsa, Kemist, Yuta ou moi.
 - **Manette** : certains skips sont plus faciles à la manette. Ex : Poleuky ou Iridium.
@@ -243,7 +237,7 @@ Vidéo explicative du combat :
 
 Il y a plusieurs openers. J'utilise souvent JR2 JR2 R1, mais parfois JR2 R1 JR2 est mieux. Entraîne-toi et regarde ce que tu préfères.
 
-En fin de combat, ne passe pas entre ses jambes, tu peux recevoir un rocher de magma juste à côté de toi et exploser : [vise la partie gauche de sa jambe droite](https://youtu.be/9a0XocTjluA?t=3164) et reste là :
+En fin de combat, ne passe pas entre ses jambes : [vise la partie gauche de sa jambe droite](https://youtu.be/9a0XocTjluA?t=3164) et reste là :
 
 ![Positionnement Géant de feu](https://www.speedrun.com/static/blob/7z33j29z.png)
 
