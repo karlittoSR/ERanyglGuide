@@ -117,9 +117,9 @@ I insist: go **step by step**, otherwise you'll give up. If you're a beginner, a
 - Start by making saves in front of each skip.
 - Train with my visual cues: [first video](https://youtu.be/wujQ-QFOp6c), [second video](https://youtu.be/9C-Ns7TBp_w).
 
-1. Here's a difficulty matrix:
+1. Here's a Tierlist :
 
-   ![Skip difficulty matrix](https://www.speedrun.com/static/blob/kzwmg1rn.png)
+   ![Skips tierlist](/images/tierlist-skips.svg)
 
    The Leyndell bridge can be skipped: just go right after the balcony skip and ride the dragon. The snow skip should be trained extensively, but you can quit out to reset the dragon's position. Don't die here or you'll have to redo the whole mountain. Same for the stone 8 beetle.
 2. Skips to avoid at the beginning: Leyndell Bridge, Leyndell Root (right after Goldfrey), Liurnia Bridge, IJI and KEY. You can do the snow skip, but take this grace in case you die:
