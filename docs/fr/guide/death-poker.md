@@ -118,9 +118,9 @@ J'insiste : avance **étape par étape**, sinon tu abandonneras. Si tu débutes,
 - Commence par créer des sauvegardes devant chaque skip.
 - Entraîne-toi avec mes repères visuels : [première vidéo](https://youtu.be/wujQ-QFOp6c), [deuxième vidéo](https://youtu.be/9C-Ns7TBp_w).
 
-1. Voici une matrice de difficulté :
+1. Voici une Tierlist :
 
-   ![Matrice de difficulté des skips](https://www.speedrun.com/static/blob/kzwmg1rn.png)
+   ![Tierlist des skips](/images/tierlist-skips.svg)
 
    Le pont de Leyndell peut être skip, il suffit d'aller à droite après le skip du balcon et de monter sur le dragon. Le Lake skip peut être évité en passant devant Borealis et en faisant le tour du lac. Pareil pour le bousier stone 8, tu peux lancer la flèche de plus en arrière sans attirer la main qui one shot.
 2. Voici les skips à éviter au début : Pont de Leyndell, Lake skip, Leyndell Balcon, Sellia skip. Le seul skip vraiment intéressant à apprendre dès le début est le Marika Skip qui va vers Radahn, car il est simple et sauve 2 minutes.
