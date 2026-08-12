@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 444" role="img" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+<title>Tierlist des skips Any% Glitchless</title>
+<desc>Classement des skips de la route Death's Poker, du tier S reserve au top 10 jusqu'au tier E de base.</desc>
+
+<rect x="40" y="40" width="100" height="56" fill="#FF7F7F"/>
+<text x="90" y="68" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#111111">S</text>
+<text x="90" y="84" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Top 10</text>
+<rect x="148" y="40" width="492" height="56" fill="#1C1C1C"/>
+<rect x="160" y="52" width="114" height="32" rx="6" fill="#EDEDED"/>
+<text x="217" y="68" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Leyndell Bridge</text>
+
+<rect x="40" y="98" width="100" height="56" fill="#FFBF7F"/>
+<text x="90" y="126" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#111111">A</text>
+<text x="90" y="142" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Professional</text>
+<rect x="148" y="98" width="492" height="56" fill="#1C1C1C"/>
+<rect x="160" y="110" width="75" height="32" rx="6" fill="#EDEDED"/>
+<text x="197" y="126" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Lake Skip</text>
+<rect x="243" y="110" width="101" height="32" rx="6" fill="#EDEDED"/>
+<text x="293" y="126" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Academy Doors</text>
+<rect x="352" y="110" width="127" height="32" rx="6" fill="#EDEDED"/>
+<text x="415" y="126" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Academy Escalator</text>
+
+<rect x="40" y="156" width="100" height="56" fill="#FFFF7F"/>
+<text x="90" y="184" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#111111">B</text>
+<text x="90" y="200" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Speedrunner</text>
+<rect x="148" y="156" width="492" height="56" fill="#1C1C1C"/>
+<rect x="160" y="168" width="81" height="32" rx="6" fill="#EDEDED"/>
+<text x="200" y="184" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Farum Bird</text>
+<rect x="249" y="168" width="94" height="32" rx="6" fill="#EDEDED"/>
+<text x="296" y="184" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Academy Wall</text>
+
+<rect x="40" y="214" width="100" height="56" fill="#7FFF7F"/>
+<text x="90" y="242" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#111111">C</text>
+<text x="90" y="258" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Impressive</text>
+<rect x="148" y="214" width="492" height="56" fill="#1C1C1C"/>
+<rect x="160" y="226" width="88" height="32" rx="6" fill="#EDEDED"/>
+<text x="204" y="242" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Sellia Skip</text>
+<rect x="256" y="226" width="120" height="32" rx="6" fill="#EDEDED"/>
+<text x="316" y="242" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Leyndell Balcony</text>
+<rect x="384" y="226" width="133" height="32" rx="6" fill="#EDEDED"/>
+<text x="450" y="242" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Altus Gilika Grace</text>
+
+<rect x="40" y="272" width="100" height="94" fill="#7FBFFF"/>
+<text x="90" y="311" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#111111">D</text>
+<text x="90" y="327" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Let's skip !</text>
+<rect x="148" y="272" width="492" height="94" fill="#1C1C1C"/>
+<rect x="160" y="285" width="101" height="32" rx="6" fill="#EDEDED"/>
+<text x="210" y="301" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Liurnia Wolfs</text>
+<rect x="269" y="285" width="81" height="32" rx="6" fill="#EDEDED"/>
+<text x="309" y="301" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Manor Roof</text>
+<rect x="358" y="285" width="133" height="32" rx="6" fill="#EDEDED"/>
+<text x="424" y="301" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Liurnia Bridge Key</text>
+<rect x="160" y="321" width="133" height="32" rx="6" fill="#EDEDED"/>
+<text x="226" y="337" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Liurnia Bridge Iji</text>
+<rect x="301" y="321" width="127" height="32" rx="6" fill="#EDEDED"/>
+<text x="364" y="337" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Altus Cliffbottom</text>
+<rect x="436" y="321" width="101" height="32" rx="6" fill="#EDEDED"/>
+<text x="486" y="337" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Leyndell Root</text>
+
+<rect x="40" y="368" width="100" height="56" fill="#BF7FFF"/>
+<text x="90" y="396" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#111111">E</text>
+<text x="90" y="412" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Baseline</text>
+<rect x="148" y="368" width="492" height="56" fill="#1C1C1C"/>
+<rect x="160" y="380" width="146" height="32" rx="6" fill="#EDEDED"/>
+<text x="233" y="396" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#111111">Radahn's Marika Skip</text>
+</svg>
