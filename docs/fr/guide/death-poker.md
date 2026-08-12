@@ -1,14 +1,14 @@
 ---
-title: Any% Glitchless — Death Poker (1.07)
+title: Any% Glitchless — Death's Poker (1.07)
 ---
 
-# Any% Glitchless — Death Poker (1.07)
+# Any% Glitchless — Death's Poker (1.07)
 
 Salut !
 
-Ce [fichier excel](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) vous donne un bon aperçu de la route Any% Glitchless Death Poker (patch 1.07), conçu à la fois pour les nouveaux runners et pour ceux qui cherchent à améliorer leur SOB et leur PB.
+Ce [fichier excel](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) vous donne tout le détail de la route Any% Glitchless à la Death's Poker (patch 1.07), conçu à la fois pour les nouveaux runners et pour ceux qui cherchent à améliorer leur SOB et leur PB.
 
-Ce n'est pas un guide complet minute par minute, mais plutôt une liste de conseils et de liens en vue de préparer votre première run. Pour connaître les lignes et avoir une vue globale de la run, rien de mieux que d'observer une run pour être certain de ne rien rater.
+Ce n'est pas un guide complet minute par minute, mais plutôt une liste de conseils et de liens utiles. Pour connaître les lignes et avoir une vue globale de la run, rien de mieux que d'observer une run pour être certain de ne rien rater.
 
 Détail complet de la run : [le fichier excel](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) (EN / FR / CN).
 
@@ -19,16 +19,16 @@ Détail complet de la run : [le fichier excel](https://docs.google.com/spreadshe
 3. Récupérer tous les outils listés dans le tableur. [Voici une vidéo de tout le processus (FR)](https://youtu.be/sRiX9s1Br60)
 4. Suis la [route](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) et crée une save avant chaque boss / skip / cheese.
 5. Configure LiveSplit, SoulSplitter et récupère un [fichier de splits .lss](https://therun.gg/karlitto__/Elden%20Ring/Any%25%20Glitchless$platform%3Apc$variables%3Aroute%3Ddeath'spoker%2Cversion%3D1.07) (clique sur le nuage à côté de Splits (IGT), renomme les splits à ta convenance).
-6. Sois certain que c'est du in-game time (clic droit, Compare Against, Game Time), crée un perso et vois si le timer tourne.
+6. Sois certain que c'est du in-game time (clic droit, Compare Against, Game Time).
 7. Finis toujours une run manuellement aux crédits. On utilise LiveSplit IGT (in-game time) aux crédits en tant que timer final sur le leaderboard.
 8. Entraîne-toi sur l'oiseau et sur les boss.
-   - Pour l'oiseau : jusqu'à obtenir un ratio de victoire d'environ 1/3 et pouvoir survivre plus d'une minute sur le rebord de la falaise.
+   - Pour l'oiseau : jusqu'à pouvoir survivre plus d'une minute sur le rebord de la falaise.
    - Pour les boss : jusqu'à pouvoir les tuer régulièrement trois fois de suite et comprendre leurs backups (stratégies autres que la gold RNG).
    - Pour apprendre rapidement les patterns d'un boss, vas-y nu, no-death, sans armes, et essaie simplement de ne pas te faire toucher pendant 5 minutes d'affilée.
 9. Quand tu es un peu en confiance, fais des runs segmentées après l'oiseau : tu obtiendras ton SOB et une run de référence qui sera ton premier PB à battre. Tu n'as pas besoin de faire tous les skips, surtout pas le bridge skip, qui est le plus punitif.
 10. Quand tu es plus en confiance (tu peux faire un boss rush complet sans mourir), lance ton premier vrai run. Prends tous les sites de grâce disponibles sur ton passage et dépense tes niveaux dès que possible pour perdre un minimum de runes si tu meurs et ne pas être bloqué (exemple : avant Gideon, tu peux monter l'intelligence pour faire plus de dégâts et maximiser tes chances de le passer).
 11. Quand tu vises environ 58 minutes, enlève plusieurs sites de grâce. Je recommande de garder ceux de Margit, de la Chambre de la Reine avant Morgott, du Bird skip et de Godfrey.
-12. Enlève tout et entraîne-toi aux bow cancels si tu vises un sub 56.
+12. Enlève tout et entraîne-toi aux bow cancels si tu vises un sub 55.
 
 ### Vidéos de référence
 
@@ -46,28 +46,28 @@ Détail complet de la run : [le fichier excel](https://docs.google.com/spreadshe
 
 ## Foire aux questions
 
-### Quelles sont les différences entre la BHF et la Death Poker ? Laquelle est la meilleure pour un débutant ?
+### Quelles sont les différences entre la BHF et la Death's Poker ? Laquelle est la meilleure pour un débutant ?
 
-Ça dépend surtout des préférences personnelles. Voilà ce que je ressens après avoir joué les deux :
+Ça dépend de tes préférences personnelles. Voilà ce que je ressens après avoir joué les deux :
 
-- **La BHF est plus gratifiante**, techniquement très précise, avec des combats exigeants et moins dépendants de la RNG. Le setup dure environ 20 minutes ; même si tu n'es pas inactif, tu passes surtout ton temps à cheval. Si tu veux surtout t'amuser sans viser le haut du leaderboard, c'est un très bon choix.
-- **La Death Poker (DP) est globalement plus simple**, avec un setup très court mais beaucoup plus dépendant de la RNG. Tu n'as pas besoin de reset toutes les 6 minutes si l'oiseau se passe mal : tu peux faire des runs segmentés jusqu'à être en confiance. En revanche, pour entrer dans le top 10 et faire un run propre avec 0 mort et une RNG correcte, il faudra beaucoup plus d'essais que pour la BHF. On n'a pas encore découvert toutes les stratégies de backup, donc parfois tu te fais simplement RNGed.
+- **La BHF est plus gratifiante**, techniquement très précise, avec des combats exigeants et moins dépendants de la RNG. Le setup dure environ 20 minutes ; même si tu n'es pas inactif, tu passes surtout ton temps à cheval. Si tu veux surtout t'amuser sans viser le haut du leaderboard, c'est un très bon choix. Point négatif majeur : c'est dépendant de consommables, donc si tu meurs la backup est très différente.
+- **La Death's Poker (DP) est globalement plus simple**, avec un setup très court mais beaucoup plus dépendant de la RNG si tu vises le top du classement. Tu n'as pas besoin de reset toutes les 6 minutes si l'oiseau se passe mal : tu peux faire des runs segmentés jusqu'à être en confiance. En revanche, pour entrer dans le top 5 et faire un run propre avec 0 mort et une RNG correcte.
 
 ### Manette ou clavier-souris ?
 
 Les meilleurs runners utilisent les deux, donc c'est à toi de choisir. Si tu as commencé à la manette, je te recommande de rester dessus.
 
-- **Clavier-souris (KBM)** : trajectoires plus droites, contrôle très précis du positionnement. Si tu vises le meilleur SOB possible, c'est KBM. Ex : Forsa, Kemist, Yuta ou moi.
-- **Manette** : certains skips sont plus faciles à la manette. Ex : Poleuky ou Iridium.
+- **Clavier-souris (KBM)** : trajectoires plus droites, contrôle très précis du positionnement et des tirs à l'arc. Si tu vises le meilleur SOB possible, c'est KBM. Ex : Forsa, Kemist, Yuta ou moi.
+- **Manette** : certains skips sont plus faciles à la manette, et pas besoin de rebind ton clavier comme un singe. Ex : Poleuky ou Iridium.
 
 ### Pourquoi le patch 1.07 ?
 
 Pour deux raisons :
 
-1. La Phalanx de la rapière de Rogier inflige 40 points de dégâts de poise, et c'est tellement OP qu'on l'utilise pour presque tous les boss après le Géant de Feu.
+1. La Phalanx de la rapière de Rogier inflige 40 points de dégâts de poise, et c'est tellement puissant qu'on l'utilise pour presque tous les boss après le Géant de Feu.
 2. En courant, tu peux simplement t'accroupir / te relever (j'appelle ça un squat) pour récupérer beaucoup d'endurance (sans bloquer). On utilise ça pour courir tout le temps, et aussi en combat pour avoir assez d'endurance afin d'exécuter les scripts de boss.
 
-### À propos du patch FPS (peut évoluer, vérifie les règles)
+### À propos du patch FPS
 
 - L'outil a été créé à l'origine par Virazy pour le TAS d'Elden Ring. Il s'est avéré qu'il pouvait aussi éliminer complètement les incohérences liées aux FPS, par exemple dans les setups de Legasus et les zips. Avec le temps, on a découvert d'autres cas où il fait une différence, donc il est autorisé là où les FPS influencent les résultats de nos exécutions.
 - Le patch FPS sert à supprimer l'impact des FPS sur l'exécution. Il fait en sorte que le jeu pense toujours tourner à un certain nombre d'images par seconde, ce qui permet d'avoir une distance de saut constante.
@@ -95,6 +95,7 @@ Pour deux raisons :
 
 1. En général, on regarde simplement le WR ou le PB d'un top runner, on lance un organiseur de sauvegardes (SoulsSpeedruns), on crée un nouveau personnage, on lance un [outil d'entraînement](https://github.com/karlittoSR/TarnishedTool) et on sauvegarde progressivement toutes les étapes clés : boss, skips et tout aspect délicat de la route.
 2. Je te conseille de **créer d'abord toutes tes sauvegardes avant de pratiquer quoi que ce soit** (va simplement en *nodeath* et *one-shot* les boss). Si tu t'entraînes dur sur 50 % de la route sans rien sauvegarder après, tu auras déjà passé beaucoup d'heures à t'entraîner, et les 50 % restants te paraîtront une éternité, ce qui peut être décourageant.
+3. Ce n'est pas intéressant de prendre les saves d'un autre. Tu auras ses settings in-game, et tu n'apprendras pas les lignes pour arriver aux boss/skips, ce qui est dommage. Prendre le temps de faire ses saves, c'est aussi se familiariser avec la route.
 
 ### Pourquoi as-tu l'impression que je pars parfois en courant immédiatement après la fin d'une interaction ?
 
@@ -121,11 +122,9 @@ J'insiste : avance **étape par étape**, sinon tu abandonneras. Si tu débutes,
 
    ![Matrice de difficulté des skips](https://www.speedrun.com/static/blob/kzwmg1rn.png)
 
-   Le pont de Leyndell peut être skip, il suffit d'aller à droite après le skip du balcon et de monter sur le dragon. Le snow skip doit être beaucoup entraîné, mais tu peux quit-out pour reset la position du dragon. Ne meurs pas ici ou tu devras refaire toute la montagne. Pareil pour le bousier stone 8.
-2. Voici les skips à éviter au début : Pont de Leyndell, Racine de Leyndell (juste après Goldfrey), Pont de Liurnia IJI et CLÉ. Tu peux faire le skip de la neige mais prends cette grâce au cas où tu meurs :
-
-   ![Grâce de secours pour le snow skip](https://www.speedrun.com/static/blob/1n5jw4je.png)
-3. Prends le temps de ralentir mes vidéos et d'observer mon clavier virtuel. Certains détails que tu rates deviendront évidents.
+   Le pont de Leyndell peut être skip, il suffit d'aller à droite après le skip du balcon et de monter sur le dragon. Le Lake skip peut être évité en passant devant Borealis et en faisant le tour du lac. Pareil pour le bousier stone 8, tu peux lancer la flèche de plus en arrière sans attirer la main qui one shot.
+2. Voici les skips à éviter au début : Pont de Leyndell, Lake skip, Leyndell Balcon, Sellia skip. Le seul skip vraiment intéressant à apprendre dès le début est le Marika Skip qui va vers Radahn, car il est simple et sauve 2 minutes.
+3. Prends le temps de ralentir mes vidéos et d'observer mon clavier virtuel. Certains détails que tu rates apparaîtrons.
 
 ## Conseils sur les boss avec niveaux de RNG /10
 
