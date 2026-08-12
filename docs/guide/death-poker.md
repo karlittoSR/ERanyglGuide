@@ -1,14 +1,14 @@
 ---
-title: Any% Glitchless — Death Poker (1.07)
+title: Any% Glitchless — Death's Poker (1.07)
 ---
 
-# Any% Glitchless — Death Poker (1.07)
+# Any% Glitchless — Death's Poker (1.07)
 
 Hello!
 
-This [route sheet](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) gives you a good overview of the Any% Glitchless Death Poker route (patch 1.07), designed for both new runners and those looking to improve their SOB and PB.
+This [route sheet](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) gives you a good overview of the Any% Glitchless Death's Poker route (patch 1.07), designed for both new runners and those looking to improve their SOB and PB.
 
-This is not a complete minute-by-minute guide, but rather a list of tips and links to prepare your first run. To learn the lines and get a global view of the run, nothing beats watching a run to make sure you don't miss anything.
+This is not a complete minute-by-minute guide, but rather a list of tips and useful links. To learn the lines and get a global view of the run, nothing beats watching a run to make sure you don't miss anything.
 
 Complete details of the run: [route sheet](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) (EN / FR / CN).
 
@@ -19,16 +19,16 @@ Complete details of the run: [route sheet](https://docs.google.com/spreadsheets/
 3. Get all the tools listed in the route sheet. [Here's a video of the whole process (FR)](https://youtu.be/sRiX9s1Br60)
 4. Follow the [route](https://docs.google.com/spreadsheets/d/1gnmUKSnFf3odiySNua3vSO472feMbHxfyAMrHEXhMUw/edit?gid=0#gid=0) and create a save before each boss / skip / cheese.
 5. Configure LiveSplit, SoulSplitter and [get a .lss splits file](https://therun.gg/karlitto__/Elden%20Ring/Any%25%20Glitchless$platform%3Apc$variables%3Aroute%3Ddeath'spoker%2Cversion%3D1.07) (click the cloud next to Splits (IGT), rename the splits as you wish).
-6. Make sure it's in-game time (right click, Compare Against, Game Time), create a character and check the timer runs.
+6. Make sure it's in-game time (right click, Compare Against, Game Time).
 7. Always end a run manually at the credits. We use LiveSplit IGT (in-game time) at the credits as the final leaderboard time.
 8. Train the bird and the bosses.
-   - The bird: until you have about a 1/3 win ratio and can survive more than 1 minute on the cliff's ledge.
+   - The bird: until you can survive more than 1 minute on the cliff's ledge.
    - The bosses: until you can kill them regularly 3 times in a row and understand their backups (strategies other than the gold RNG).
    - To learn a boss's patterns quickly, go naked, no-death, no weapons, and just try not to get hit for 5 minutes straight.
 9. When a bit confident, do segmented runs after the bird: you'll get your SOB and a reference run that becomes your first PB to beat. You don't need to do all the skips, especially not the bridge skip, which is the most punishing one.
 10. When more confident (you can do a full boss rush without dying), start your first real run. Take every site of grace available on your path, and spend your levels as soon as possible so you lose a minimum of runes if you die and don't get stuck (example: before Gideon, you can level intelligence to deal more damage and maximize your chances of getting past him).
 11. When aiming for around 58 minutes, remove several sites of grace. I recommend keeping Margit's, the Queen's Bedchamber before Morgott, the Bird skip and Godfrey's.
-12. Remove everything and practice bow cancels if aiming for a sub 56.
+12. Remove everything and practice bow cancels if aiming for a sub 55.
 
 ### Reference videos
 
@@ -46,28 +46,28 @@ Complete details of the run: [route sheet](https://docs.google.com/spreadsheets/
 
 ## Frequently Asked Questions
 
-### What are the differences between BHF and Death Poker? Which is better for a beginner?
+### What are the differences between BHF and Death's Poker? Which is better for a beginner?
 
 It's up to personal preference. What I feel, having done both:
 
-- **BHF is more rewarding**, technically very precise with challenging fights and less punishing RNG. The setup is around 20 minutes; even though you're not idle, you're mainly riding. If you just want to have fun and not aim for the top of the leaderboard, it's a great choice.
-- **Death Poker (DP) is overall easier**, with a very short setup but much more RNG dependent. You don't need to reset every 6 minutes if the bird goes badly: you can do segmented runs until you're confident. However, to enter the top 10 and get a clean run with 0 deaths and okay RNG, it will take a lot more tries than BHF. We also haven't discovered all the backup strategies yet, so sometimes you just get RNGed.
+- **BHF is more rewarding**, technically very precise with challenging fights and less punishing RNG. The setup is around 20 minutes; even though you're not idle, you're mainly riding. If you just want to have fun and not aim for the top of the leaderboard, it's a great choice. Major downside: it's consumable dependent, so if you die the backup is very different.
+- **Death's Poker (DP) is overall easier**, with a very short setup but much more RNG dependent if you're aiming for the top of the leaderboard. You don't need to reset every 6 minutes if the bird goes badly: you can do segmented runs until you're confident. However, to enter the top 5 and get a clean run with 0 deaths and okay RNG.
 
 ### Keyboard-mouse or controller?
 
 The top runners use both, so it's your choice. If you started on controller, I recommend sticking to it.
 
-- **KBM**: straighter lines, very precise control of positioning. If you aim for the best SOB possible, it's KBM. Ex: Forsa, Kemist, Yuta or me.
-- **Controller**: some skips are much easier on controller. Ex: Poleuky or Iridium.
+- **KBM**: straighter lines, very precise control of positioning and bow shots. If you aim for the best SOB possible, it's KBM. Ex: Forsa, Kemist, Yuta or me.
+- **Controller**: some skips are much easier on controller, and no need to rebind your keyboard like a monkey. Ex: Poleuky or Iridium.
 
 ### Why patch 1.07?
 
 For two reasons:
 
-1. The Phalanx from Rogier's Rapier deals 40 poise damage, and this is so massively OP that we use it for almost all bosses after the Fire Giant.
+1. The Phalanx from Rogier's Rapier deals 40 poise damage, and this is so massively powerful that we use it for almost all bosses after the Fire Giant.
 2. When running, you can just crouch/uncrouch (I call it a squat) to regain a lot of stamina (don't block). We use this to run constantly, and also in combat to have enough stamina to execute the boss scripts.
 
-### About the FPS Patch (can evolve, please check the rules)
+### About the FPS Patch
 
 - The tool was initially created by Virazy for the Elden Ring TAS. It turned out it could also completely eliminate FPS-related inconsistencies, for example in Legasus setups and zips. Over time we found more cases where it makes a difference, so it's allowed wherever FPS affects the outcome of our executions.
 - The FPS patch removes FPS as a factor from execution. It makes the game always think it's running at a certain frame rate, which gives a constant jump distance.
@@ -95,6 +95,7 @@ For two reasons:
 
 1. Usually we just watch the WR or a top runner's PB, launch a save organizer (SoulsSpeedruns), create a new character, launch a [training tool](https://github.com/karlittoSR/TarnishedTool) and progressively save all the key steps: bosses, skips and any tricky part of the route.
 2. I suggest you **create all your saves first before practicing anything** (just go *nodeath* and one-shot the bosses). If you practice hard on 50% of the route without saving anything after, you'll already have spent many hours practicing, and the remaining 50% will feel like an eternity — which can be discouraging.
+3. It's not interesting to take someone else's saves. You'll have their in-game settings, and you won't learn the lines to get to the bosses/skips, which is a shame. Taking the time to make your own saves also familiarizes you with the route.
 
 ### Why do you sometimes run immediately after an interaction ends?
 
@@ -121,11 +122,9 @@ I insist: go **step by step**, otherwise you'll give up. If you're a beginner, a
 
    ![Skips tierlist](/images/tierlist-skips.svg)
 
-   The Leyndell bridge can be skipped: just go right after the balcony skip and ride the dragon. The snow skip should be trained extensively, but you can quit out to reset the dragon's position. Don't die here or you'll have to redo the whole mountain. Same for the stone 8 beetle.
-2. Skips to avoid at the beginning: Leyndell Bridge, Leyndell Root (right after Goldfrey), Liurnia Bridge, IJI and KEY. You can do the snow skip, but take this grace in case you die:
-
-   ![Backup grace for the snow skip](https://www.speedrun.com/static/blob/1n5jw4je.png)
-3. Take the time to slow down my videos and watch my virtual keyboard closely. Some details you're missing will become obvious.
+   The Leyndell bridge can be skipped: just go right after the balcony skip and ride the dragon. The Lake skip can be avoided by going past Borealis and around the lake. Same for the stone 8 beetle, you can shoot the arrow from further back without attracting the one-shot hand.
+2. Skips to avoid at the beginning: Leyndell Bridge, Lake skip, Leyndell Balcony, Sellia skip. The only skip really worth learning early is the Marika Skip going to Radahn, as it's simple and saves 2 minutes.
+3. Take the time to slow down my videos and watch my virtual keyboard closely. Some details you're missing will appear.
 
 ## Boss tips with RNG levels /10
 
