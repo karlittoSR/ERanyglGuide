@@ -130,13 +130,13 @@ J'insiste : avance **étape par étape**, sinon tu abandonneras. Si tu débutes,
 
 ### Volatile funéraire — 4/10
 
-**J'ai du mal avec l'oiseau. Parfois il ne saute pas pendant plus d'une minute — c'est normal ? Ou mon placement est mauvais ?**
+**J'ai du mal avec l'oiseau. Parfois il ne saute pas pendant plus d'une minute... c'est normal ? Ou mon placement est mauvais ?**
 
 Il a 3 patterns qui le font tomber. Il est tout à fait possible qu'il ne fasse aucun de ces 3 patterns pendant longtemps. La part RNG est : **quand** va-t-il faire l'un de ces trois. On peut l'influencer un peu mais ça demande de la lecture de code et des heures de pratique.
 
 Pour t'entraîner efficacement : sauvegarde ta position sur le rebord de la falaise, no-death, et s'il ne tombe pas, reviens sur la falaise jusqu'à ce qu'il tombe. Puis QO et recharge la sauvegarde. Tu peux t'entraîner très vite comme ça.
 
-Ces jours-ci j'ai environ 40 % de très mauvaises RNG = soit je meurs sans rien pouvoir faire, soit j'attends trop longtemps (1 min 30). Donc 60 % de chances de continuer le run. Je ne suis pas le meilleur sur l'oiseau, tu peux faire mieux. Si tu n'es pas encore sous 55 minutes, tu peux attendre jusqu'à au moins 7 minutes. Les top 3 visent environ 6:15 ou moins, donc même 7:30 reste jouable.
+Ces jours-ci j'ai environ 30 % de très mauvaises RNG = soit je meurs sans rien pouvoir faire, soit j'attends trop longtemps (1 min 30). Donc 70 % de chances de continuer le run. Si tu n'es pas encore sous 55 minutes, tu peux attendre jusqu'à au moins 7 minutes. Les top 3 visent environ 6:15 ou moins, donc même 7:30 reste jouable. Si tu cherches un sub 1H alors tu peux attendre jusqu'à 8 minutes !
 
 Si vous mourez tous les deux en même temps et que tu ne vises pas un sub 56, va récupérer les runes et continue.
 
@@ -166,19 +166,17 @@ Quelques cas de mauvaises RNG :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/HPkGELH8OMY" title="Mauvaises RNG abductrices" frameborder="0" allowfullscreen></iframe>
 
-### Gilika — 0/10
+### Gilika — 1/10 (Elle peut backstep, ce qui fait perdre 1 seconde)
 
 J'ai essayé de skip ce talisman : tu gagnes ~40 s mais tu en perds plusieurs sur tous les autres combats et tu ajoutes du RNG. Donc **gros NON**.
 
-Il y a un petit timing à avoir si tu veux accélérer le combat de quelques frames en finissant par un WAR2, mais ça ne vaut pas le coup de s'entraîner dessus.
+### Radahn — 2/10 (opener parfois lent, dans de rares cas il peut te faire perdre 10 secondes)
 
-### Radahn — 2/10 (opener parfois lent)
-
-Tu peux invoquer Okina en chemin (personne d'autre), il peut faire beaucoup de dégâts et t'économiser un input. Si tu invoques trop de monde, ils te gêneront au moment d'éviter l'AOE de Radahn lors de son passage en P1.5. S'il se rapproche trop, passe simplement de l'autre côté avant le passage P1.5.
+Tu peux invoquer Okina en chemin (personne d'autre), il peut faire beaucoup de dégâts et t'économiser un input en toute fin de combat. Si tu invoques trop de monde, ils te gêneront au moment d'éviter l'AOE de Radahn lors de son passage en P1.5. Si Okina se rapproche trop, passe simplement de l'autre côté avant le passage P1.5.
 
 [Voici comment gérer sa pluie de flèches.](https://youtu.be/9ooCgKzFjJ8)
 
-Tu n'as pas besoin de descendre du cheval avant la cinématique, fais juste QO devant Alexander (le tas de débris en bas du pack de 2).
+Tu n'as pas besoin de descendre du cheval avant la cinématique, fais juste QO devant Alexander (le tas de débris en bas).
 
 Vidéo explicative du combat :
 
@@ -186,25 +184,25 @@ Vidéo explicative du combat :
 
 ### Margit — 1/10 (opener parfois lent)
 
-Il n'y a qu'un mauvais opener : il te tourne autour pendant 10 s. Tourne et attends qu'il attaque. Si tu es greedy il peut te tuer. [Pire RNG de Margit.](https://youtu.be/DdbV2yOwOYc?t=4506) Quand le combat se termine, regarde ta vie : ça détermine combien de potions prendre.
+Il n'y a qu'un mauvais opener : il descend son arme et peut follow avec une attaque lente. Si tu es greedy il peut te tuer. [Gold RNG de Margit.](https://youtu.be/S9NpPNIwSjc?t=5463) Quand le combat se termine, regarde ta vie : ça détermine combien de potions prendre.
 
 Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=655" title="Margit" frameborder="0" allowfullscreen></iframe>
 
-### Godrick — 1/10 (le one-cycle n'est pas consistant)
+### Godrick — 2/10 (le one-cycle n'est pas constant, et il peut ne rien faire 1% du temps)
 
-Le [one-cycle](https://youtu.be/wByGqYZ3LyM?t=1925) est théoriquement toujours possible sur ses deux openers, mais parfois tu manques de dégâts. Ne perds pas trop de temps à le perfectionner.
+Le [one-cycle](https://youtu.be/wByGqYZ3LyM?t=1925) est théoriquement toujours possible sur ses deux openers, mais parfois tu manques de dégâts. Ne perds pas trop de temps à le chercher.
 
-Sur le deuxième opener (celui où il saute), avance encore d'un pas puis fais directement WAR1 en continu. Il y a un timing à apprendre pour ne pas se faire toucher. Tu peux continuer à sprinter pendant tout ce process, puisqu'on est censé squatter juste après la fin des escaliers quoi qu'il arrive.
+Sur le deuxième opener (celui où il saute), avance encore d'un pas sans sprinter puis fais directement WAR1 en continu. Il y a un timing à apprendre pour ne pas se faire toucher.
 
-Vise toujours tes traînées de WAR1 sur l'endroit où il spawn en P2, pour ne pas perdre 10 s à courir vers lui.
+Vise toujours tes traînées de WAR1 sur l'endroit où il spawn en P2, pour ne pas perdre 10 s à courir vers lui. Je vise les portes du fond.
 
 Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=764" title="Godrick" frameborder="0" allowfullscreen></iframe>
 
-### Goldfrey — 3/10 (mauvaise RNG = jusqu'à 30 s perdues)
+### Goldfrey — 3/10 (mauvaise RNG = jusqu'à 15 s perdues)
 
 Ça demande beaucoup de pratique pour exploiter la RNG gold. Sinon, prends ton temps, tu l'auras toujours. Le spin a 60 % de chances d'arriver, rien ne peut l'influencer.
 
@@ -212,9 +210,10 @@ Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=867" title="Goldfrey" frameborder="0" allowfullscreen></iframe>
 
-### Morgott — 2/10 (tu meurs environ 20 % du temps par les geysers)
+### Morgott — 2/10 (tu meurs environ 10 % du temps par les geysers)
 
 À part le backstep, tous les openers sont réguliers. Prends le stun et sois full vie, ne prends pas trop de risques. Si tu débutes, fais R1 R1 plutôt que JR2 pour le stun, c'est plus safe.
+Si tu te fais toucher, fais R1 R1 (stun) WAR1 buffer R1 et éloigne toi. Il prendra assez de dégâts pour passer direct en P2.
 
 Tous les openers et comment les gérer :
 
@@ -222,9 +221,9 @@ Tous les openers et comment les gérer :
 
 Quand tu casses la poise, [accroupis-toi et recule avant de mettre le WAR1](https://youtu.be/9a0XocTjluA?t=2343). C'est important car quand Morgott passe en Phase 2, sa hitbox recule un peu.
 
-N'attends pas trop (mon repère : quand mon perso commence l'animation d'accroupissement, j'appuie WAR1). Si tu tardes, il peut lancer l'attaque flèche. S'il fait cela, ça rend le combat plus complexe car il attaquera juste après les geysers.
+N'attends pas trop (mon repère : quand mon perso commence l'animation d'accroupissement, j'appuie WAR1). Si tu tardes, il peut lancer l'attaque flèche. S'il fait cela, ça rend le combat plus complexe car il attaquera juste après les geysers. Ne t'accroupis pas si tu n'est pas full life.
 
-*Distance ou rush en P2 ?* Reste à distance si tu es full vie. J'ai testé ~50 fois : 19 % de morts à distance contre 33 % en essayant de rush.
+*Distance ou rush en P2 ?* Reste à distance si tu es full vie. J'ai testé ~50 fois : 15 % de morts à distance contre 33 % en essayant de rush.
 
 Si tu manques de mana ou de vie, rapproche-toi, évite les geysers et finis avec WAR1 WAR2. N'hésite pas à commit le dernier WAR2 : même si tu meurs, c'est 15 s de perdues seulement.
 
@@ -232,11 +231,13 @@ Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=1198" title="Morgott" frameborder="0" allowfullscreen></iframe>
 
-### Géant de feu — 3/10 (un opener est très mauvais, le reste est OK ; P2 pareil)
+### Géant de feu — 5/10 (un opener est très mauvais, le reste est OK ; P2 pareil, il peut roll et c'est 10s de perdus)
 
 Il y a plusieurs openers. J'utilise souvent JR2 JR2 R1, mais parfois JR2 R1 JR2 est mieux. Entraîne-toi et regarde ce que tu préfères.
 
-En fin de combat, ne passe pas entre ses jambes : [vise la partie gauche de sa jambe droite](https://youtu.be/9a0XocTjluA?t=3164) et reste là :
+La gestion de l'endurance en P1 est la clef pour toujours avoir un stun et un passage P2 qui te laissent au moins 1 point d'endurance. Il ne faut jamais passer en P2 sans endurance, sinon tu ne pourras pas prendre ta potion de mana juste après les 3 premiers WAR1.
+
+En fin de combat, si tu as la RNG du volcan ne passes pas entre ses jambes : [vise la partie gauche de sa jambe droite](https://youtu.be/9a0XocTjluA?t=3164) et reste là :
 
 ![Positionnement Géant de feu](https://www.speedrun.com/static/blob/7z33j29z.png)
 
@@ -246,13 +247,13 @@ Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=1657" title="Géant de feu" frameborder="0" allowfullscreen></iframe>
 
-### Godskin Duo — 5/10 (presque infaisable avec une mauvaise RNG)
+### Godskin Duo — 4/10 (presque infaisable avec une mauvaise RNG)
 
-J'ai 45 % de resets sur le Duo. Si tu joues comme un dieu et que tu as des réflexes inhumains, tu peux probablement éviter 80 % des mauvaises RNG et quand même obtenir le kill. Mais en général, c'est au moins 30 secondes de perte de temps.
+J'ai 35 % de resets sur le Duo. Si tu joues comme un dieu et que tu as des réflexes inhumains, tu peux probablement éviter 90 % des mauvaises RNG et quand même obtenir le kill. Mais en général, c'est au moins 12 secondes de perte de temps.
 
 Il y a un petit timing à respecter après ton premier WAR1 pour déclencher une attaque du Noble (on s'approche de lui puis on recule immédiatement). On veut qu'il fasse une attaque pour pouvoir déclencher sa P2 et rester en sécurité.
 
-Pour gérer l'Apôtre, rien de mieux que de rester à distance, faire la Phalanx 2 fois, et la deuxième fois se préparer à courir quand la Phalanx quitte ton corps. De cette façon, tu ne déclencheras pas les attaques de l'Apôtre et il restera immobile. Dans le pire des cas, il préparera une boule de feu, ce qui est ok.
+Pour gérer l'Apôtre, rien de mieux que de rester à distance, faire la Phalanx 2 fois, et la deuxième fois se préparer à courir quand la Phalanx quitte ton corps. De cette façon, tu ne déclencheras pas les attaques de l'Apôtre et il restera immobile. Dans le pire des cas, il préparera une boule de feu (il va sidestep), ce qui est ok.
 
 Pour le dernier Godskin, je recommande [2 WAR1 et 1 Phalanx pour être safe](https://youtu.be/9a0XocTjluA?t=3595) et éventuellement obtenir un kill rapide (si c'est le Noble, il a tendance à te foncer dessus). Si c'est l'Apôtre, prépare une potion de mana, tu devras le stun avec une deuxième Phalanx.
 
@@ -262,9 +263,9 @@ Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=2055" title="Godskin Duo" frameborder="0" allowfullscreen></iframe>
 
-### Maliketh — 10/10
+### Maliketh — 9/10
 
-Le seul combat RNG à 10/10. S'il ne court pas, c'est une mort ou, au mieux, une énorme perte de temps et probablement un reset, car ton BPT (meilleur temps possible pour ce run) vient d'exploser.
+Le seul combat RNG à 9/10. S'il ne court pas, c'est une mort ou, au mieux, une énorme perte de temps et probablement un reset, car ton BPT (meilleur temps possible pour ce run) vient d'exploser.
 
 [Voici une vidéo du combat.](https://youtu.be/6iQ1FQALROQ) Le positionnement pour le premier WAR1 est très précis car il évite certains problèmes de poise ou de dégâts pour la P2.
 
@@ -278,7 +279,7 @@ Vidéo explicative du combat :
 
 ### Gideon — 1/10
 
-Si tu suis la [stratégie la plus récente](https://youtu.be/asSD-qzF2CI), il y a 90 % de chances que tu le tues. S'il double / triple roll, malheureusement fais juste R1 et prie.
+Si tu suis la [stratégie suivante](https://youtu.be/asSD-qzF2CI), il y a 90 % de chances que tu le tues. S'il double / triple roll, malheureusement fais juste R1 et prie.
 
 Repères visuels (d'abord le pied, ensuite le chapeau) :
 
@@ -290,26 +291,26 @@ Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=2423" title="Gideon" frameborder="0" allowfullscreen></iframe>
 
-### Godfrey — 1/10 (si mauvaise RNG ça peut être lent mais jamais fatal)
+### Godfrey — 2/10 (si mauvaise RNG ça peut être lent mais jamais fatal)
 
 S'il ne fait pas le bon opener, [ajoute juste un JR1 et attends l'opener pour le WAR1 stun](https://youtu.be/9a0XocTjluA?t=4005).
 
 « Je me fais toujours stomp en P2… »
 
 - C'est dû à des dégâts insuffisants. Assure-toi de [t'accroupir un peu puis WA](https://youtu.be/9a0XocTjluA?t=4020), roulade, WA, et il devrait y avoir l'effet de gel. C'est toujours dû à un manque de dégâts.
-- Termine ta P1 avec un WA. Quand il tourne, ne sprint pas, cours normalement pour éviter de perdre de l'endurance. Sinon tu n'en auras pas assez en P2 pour éviter sa dernière attaque.
+- Termine ta P1 avec un WAWAR1. Quand il tourne en P2, ne sprint pas, strafe normalement pour éviter de perdre de l'endurance. Sinon tu n'en auras pas assez en P2 pour éviter sa dernière attaque. Il faut que ton endurance lors du déclenchement du WAR1 en P2 soit un peu au dessus de la mana.
 
 Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=2553" title="Godfrey" frameborder="0" allowfullscreen></iframe>
 
-### Radagon — 1/10 (pire cas : un mauvais opener qui entraîne environ 5 à 8 s de perte de temps)
+### Radagon — 2/10 (pire cas : un mauvais opener (le grab) qui entraîne environ 5 à 10 s de perte de temps)
 
 **Phase 1 :**
 
-Vérifie toujours que tes dégâts initiaux sont de 4000 après les 2 WA (il passe en P2 à 4003 dégâts infligés). Pour réguler ça, roule toujours du côté droit derrière lui. De cette façon, il va tourner et prendre tous les ticks.
+Vérifie toujours que tes dégâts initiaux sont d'environ 4000 après les 2 WA (il passe en P2 à 4003 dégâts infligés). Pour réguler ça, roule toujours du côté droit derrière lui. De cette façon, il va tourner et prendre tous les ticks.
 
-S'il fait des attaques de mêlée en spam, trouve une fenêtre pour faire simplement un R1 et prépare-toi à continuer la stratégie comme d'habitude. Il passera instantanément en P2. Si tu as le temps, fais un R1 avec la rapière avant de faire le JR2 pour sécuriser le stun.
+S'il fait des attaques de mêlée en spam, trouve une fenêtre pour faire simplement un R1 et prépare-toi à continuer la stratégie comme d'habitude. Il passera instantanément en P2. Si tu as le temps, fais un R1 avec la rapière avant de faire le JR2 pour sécuriser le stun. Il est possible qu'il buffer des attaques même si tu passes après 4003, donc il faut toujours être prêt à esquiver.
 
 **Phase 2 :**
 
@@ -321,7 +322,7 @@ Si tu roules trop tôt, tu meurs.
 
 Si tu roules trop tard, tu le stun 60 % du temps, mais 40 % du temps il aura le temps de se téléporter et de spam ses attaques de P2 et tu meurs.
 
-Avec une roulade parfaite, tu commenceras à voir l'animation de téléportation, mais tu pourras l'arrêter à temps. La fenêtre est d'environ 5 frames, donc c'est faisable régulièrement avec un peu de pratique. Le repère visuel est le marteau orienté verticalement vers le bas comme sur la capture d'écran.
+Avec une roulade parfaite, tu commenceras à voir l'animation de téléportation, mais tu pourras l'arrêter à temps. La fenêtre est d'environ 5 frames, donc c'est faisable régulièrement avec un peu de pratique. Le repère visuel est le marteau orienté verticalement vers le bas comme sur la capture d'écran. Ne bouges pas avant de rouler, sinon tu seras trop loin de lui pour le stun.
 
 Même s'il se téléporte en arrière, à ce moment-là pose simplement 2 WAR1 et roule sa première frappe. Il devrait être mort juste après.
 
@@ -331,14 +332,15 @@ Vidéo explicative du combat :
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=2804" title="Radagon" frameborder="0" allowfullscreen></iframe>
 
-### Elden Beast — 3/10 (mauvais opener et mauvais Elden Stars)
+### Elden Beast — 5/10 (mauvais opener et mauvais Elden Stars)
 
+Ces conseils sont applicables surtout si vous prenez la grâce avant Godfrey pour level up, qui est donc la stratégie safe.
 Celui-ci est délicat et plus difficile qu'il n'y paraît. Voici quelques conseils pour débutants :
 
 1. Après avoir tué Radagon, aie ta barre de mana pleine.
-2. Buffer sprint avant la cinématique pour obtenir un meilleur positionnement. Avant de faire la Phalanx, fais juste 2 pas pour bénéficier du buffer. Ta Phalanx doit quitter ton corps exactement au moment où tu commences ton premier WAR1.
+2. Buffer sprint avant la cinématique pour obtenir un meilleur positionnement. Ta Phalanx doit quitter ton corps exactement au moment où tu commences ton premier WAR1.
 3. Quand tu passes derrière la bête, tu peux t'arrêter à ses pieds, ne va pas trop loin ou tu auras du mal à placer le JR2.
-4. Après ton WAR1, continue à sprinter et fais JR2 vers l'endroit où la bête devrait plonger. Cela fait une différence pour annuler correctement son animation d'anneau.
+4. Après ton WAR1, continue à sprinter et fais JR2 vers l'endroit où la bête devrait plonger. Cela fait une différence pour avoir le temps d'annuler correctement son animation d'anneau.
 5. Régénère ton endurance 2 fois, pas plus. Sinon tu ne casseras pas la poise. Quand la bête tombe, tu dois être presque full endurance.
 6. Je recommande de rester au centre, légèrement côté droit de la bête pendant les 2 WAR1. Puis fais un crouch sprint pendant 0,5 seconde et fais le dernier WAR1 en diagonale vers la gauche pour que la bête prenne des ticks pendant qu'elle plonge. [Voici un exemple.](https://www.youtube.com/watch?v=y2JZOD4s8f4) Si tu as parfaitement géré ton endurance, tu n'auras même plus besoin de t'accroupir.
 7. Astuce d'entraînement : comme pour Radagon, sauvegarde ta position juste devant Radagon. Charge ta sauvegarde, nodeath + onehit, téléportation R1. Enlève nodeath et onehit, prends deux potions de mana pour reproduire la fin du combat contre Radagon.
@@ -353,7 +355,7 @@ Parce que tu dois poser la traînée de ton WAR1 en diagonale pour que, quand il
 
 ---
 
-La RNG de cette route est plus lourde que la BHF, mais reste gérable. Maliketh reste un vrai fauteur de troubles, tandis que l'oiseau — souvent la plus grande inquiétude des nouveaux runners — est en réalité rapide à apprendre. Avec environ 10 heures de pratique, tu commenceras à le comprendre ; après quelques jours, tu devrais réussir environ une fois sur deux, même si cela prend jusqu'à 8 ou 9 minutes dans le run.
+La RNG de cette route est plus lourde que la BHF, mais reste gérable. Maliketh reste un vrai fauteur de troubles, tandis que l'oiseau — souvent la plus grande inquiétude des nouveaux runners — est en réalité ok puisqu'on peut mourir, revenir et le tuer sans trop en souffrir.
 
 Bonne RNG et surtout, amuse-toi à t'entraîner ET à run !
 
