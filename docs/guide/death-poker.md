@@ -130,13 +130,13 @@ I insist: go **step by step**, otherwise you'll give up. If you're a beginner, a
 
 ### Death Rite Bird — 4/10
 
-**I'm having trouble with the bird. Sometimes it doesn't jump for over a minute — is that normal? Or is my positioning off?**
+**I'm having trouble with the bird. Sometimes it doesn't jump for over a minute... is that normal? Or is my positioning off?**
 
 He has 3 patterns that make him fall. It's entirely possible that he does none of those 3 patterns for a long time. The RNG part is: **when** is he going to do one of those three. We can influence it a bit but it takes some code reading and hours of practice.
 
 To train efficiently: save your position on the ledge of the cliff, no-death, and if he doesn't fall, come back to the cliff and continue until he does. Then QO and reload the save. You can train at a very fast pace this way.
 
-These days I have about 40% very bad RNG = either I get killed and could do nothing about it, or I waited too long (1 min 30). That means a 60% chance to continue the run. I'm not the best at the bird, so you can do better. If you're not under 55 minutes yet, you can wait until at least 7 minutes. The top 3 aim for around 6:15 or less, so even 7:30 is runnable.
+These days I have about 30% very bad RNG = either I get killed and could do nothing about it, or I waited too long (1 min 30). That means a 70% chance to continue the run. If you're not under 55 minutes yet, you can wait until at least 7 minutes. The top 3 aim for around 6:15 or less, so even 7:30 is runnable. If you're aiming for a sub 1H then you can wait up to 8 minutes!
 
 If you both die at the same time and you're not aiming for a sub 56, go pick up your runes and continue.
 
@@ -166,19 +166,17 @@ Some bad RNG cases:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/HPkGELH8OMY" title="Abductors bad RNG" frameborder="0" allowfullscreen></iframe>
 
-### Gilika — 0/10
+### Gilika — 1/10 (She can backstep, losing 1 second)
 
 I tried to skip this talisman: you gain ~40 s but you lose several seconds in all the other fights and add RNG. So a **big NO**.
 
-There's a small timing if you want to speed the fight up by a few frames by ending with a WAR2, but it's not worth training.
+### Radahn — 2/10 (opener can be slow, in rare cases he can make you lose 10 seconds)
 
-### Radahn — 2/10 (opener can be slow)
-
-You can summon Okina on the way (nobody else) — he can deal a lot of damage and save you an input. If you summon too many, they'll get in your way when dodging Radahn's AOE during his P1.5 transition. If he gets too close, just go to the other side before the P1.5 transition.
+You can summon Okina on the way (nobody else) — he can deal a lot of damage and save you an input at the very end of the fight. If you summon too many, they'll get in your way when dodging Radahn's AOE during his P1.5 transition. If Okina gets too close, just go to the other side before the P1.5 transition.
 
 [Here's how to deal with his rain of arrows.](https://youtu.be/9ooCgKzFjJ8)
 
-You don't need to get off the horse before the cinematic: just QO in front of Alexander (the pile of debris at the bottom of the pack of 2).
+You don't need to get off the horse before the cinematic: just QO in front of Alexander (the pile of debris at the bottom).
 
 Fight breakdown:
 
@@ -186,25 +184,25 @@ Fight breakdown:
 
 ### Margit — 1/10 (opener can be slow)
 
-There's only one bad opener: he circles you for 10 s. Turn around and wait until he attacks. If you're greedy he can kill you. [Worst Margit RNG.](https://youtu.be/DdbV2yOwOYc?t=4506) When the fight ends, check your health: it determines how many potions to take.
+There's only one bad opener: he lowers his weapon and can follow with a slow attack. If you're greedy he can kill you. [Gold RNG of Margit.](https://youtu.be/S9NpPNIwSjc?t=5463) When the fight ends, check your health: it determines how many potions to take.
 
 Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=655" title="Margit" frameborder="0" allowfullscreen></iframe>
 
-### Godrick — 1/10 (the one-cycle isn't consistent)
+### Godrick — 2/10 (the one-cycle isn't constant, and he can do nothing 1% of the time)
 
-The [one-cycle](https://youtu.be/wByGqYZ3LyM?t=1925) is theoretically always possible on both of his openers, but sometimes you just don't get enough damage. Don't spend too much time perfecting it.
+The [one-cycle](https://youtu.be/wByGqYZ3LyM?t=1925) is theoretically always possible on both of his openers, but sometimes you just don't get enough damage. Don't spend too much time chasing it.
 
-On the second opener (the one where he jumps), take one more step then go directly into continuous WAR1. There's a timing to learn to not get hit. You can keep sprinting through this whole process, since we're supposed to squat right after the end of the stairs anyway.
+On the second opener (the one where he jumps), take one more step without sprinting then go directly into continuous WAR1. There's a timing to learn to not get hit.
 
-Always aim your WAR1 trails at his P2 spawn point, so you don't lose 10 s running to him.
+Always aim your WAR1 trails at his P2 spawn point, so you don't lose 10 s running to him. I aim for the doors at the back.
 
 Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=764" title="Godrick" frameborder="0" allowfullscreen></iframe>
 
-### Goldfrey — 3/10 (bad RNG = up to 30 s lost)
+### Goldfrey — 3/10 (bad RNG = up to 15 s lost)
 
 This one needs a lot of practice to capitalize on the gold RNG. Otherwise, take your time and you'll always get the kill. The spin has a 60% chance of happening — nothing can influence it.
 
@@ -212,9 +210,10 @@ Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=867" title="Goldfrey" frameborder="0" allowfullscreen></iframe>
 
-### Morgott — 2/10 (the geysers kill you about 20% of the time)
+### Morgott — 2/10 (the geysers kill you about 10% of the time)
 
 Apart from the backstep, every opener is regular. Get the stun and be full health, don't take too many risks. If you're new, do R1 R1 instead of JR2 for the stun — it's safer.
+If you get hit, do R1 R1 (stun) WAR1 buffer R1 and back off. He'll take enough damage to go straight to P2.
 
 All the openers and how to handle them:
 
@@ -222,9 +221,9 @@ All the openers and how to handle them:
 
 When breaking the poise, [crouch and take a step back before the WAR1](https://youtu.be/9a0XocTjluA?t=2343). This matters because when Morgott enters Phase 2, his hitbox shifts slightly backward.
 
-Don't wait too long (my marker: when my character starts the crouch animation, I press WAR1). If you delay, he may start the arrow attack. If that happens, the fight gets harder because he'll attack right after the geysers.
+Don't wait too long (my marker: when my character starts the crouch animation, I press WAR1). If you delay, he may start the arrow attack. If that happens, the fight gets harder because he'll attack right after the geysers. Don't crouch if you're not full life.
 
-*Distance or rush in P2?* Stay at distance if you're full health. I tested ~50 times: 19% deaths at distance versus 33% trying to close in.
+*Distance or rush in P2?* Stay at distance if you're full health. I tested ~50 times: 15% deaths at distance versus 33% trying to close in.
 
 If you're low on mana or health, close the distance, avoid the geysers and finish with WAR1 WAR2. Don't hesitate to commit to that last WAR2: even if you die, it's only 15 s lost.
 
@@ -232,11 +231,13 @@ Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=1198" title="Morgott" frameborder="0" allowfullscreen></iframe>
 
-### Fire Giant — 3/10 (one opener is very bad, the rest is fine; same in P2)
+### Fire Giant — 5/10 (one opener is very bad, the rest is fine; same in P2, he can roll and it's 10s lost)
 
 There are several openers. I usually go with JR2 JR2 R1, but sometimes JR2 R1 JR2 works better. Train and see what you prefer.
 
-At the end of the fight, don't go between his legs — you can receive a magma rock right next to you and explode. [aim for the left part of his right leg](https://youtu.be/9a0XocTjluA?t=3164) and stay there:
+Stamina management in P1 is key to always having a stun and a P2 transition that leaves you with at least 1 point of stamina. Never transition to P2 without stamina, otherwise you won't be able to take your mana potion right after the first 3 WAR1.
+
+At the end of the fight, if you have the volcano RNG don't go between his legs: [aim for the left part of his right leg](https://youtu.be/9a0XocTjluA?t=3164) and stay there:
 
 ![Fire Giant positioning](https://www.speedrun.com/static/blob/7z33j29z.png)
 
@@ -246,13 +247,13 @@ Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=1657" title="Fire Giant" frameborder="0" allowfullscreen></iframe>
 
-### Godskin Duo — 5/10 (almost undoable with bad RNG)
+### Godskin Duo — 4/10 (almost undoable with bad RNG)
 
-I have a 45% reset rate on the Duo. If you play like a god with inhuman reflexes, you can probably avoid 80% of the bad RNG and still get the kill. But usually it's at least 30 seconds of time loss.
+I have a 35% reset rate on the Duo. If you play like a god with inhuman reflexes, you can probably avoid 90% of the bad RNG and still get the kill. But usually it's at least 12 seconds of time loss.
 
 There's a small timing after your first WAR1 to trigger an attack from the Noble (get closer to him then immediately step back). We want him to attack so we can trigger his P2 and stay safe.
 
-To handle the Apostle, nothing beats staying at range, doing the Phalanx twice, and the second time preparing to run when the Phalanx leaves your body. That way you won't trigger the Apostle's attacks and he'll stay still. Worst case, he prepares a fireball, which is fine.
+To handle the Apostle, nothing beats staying at range, doing the Phalanx twice, and the second time preparing to run when the Phalanx leaves your body. That way you won't trigger the Apostle's attacks and he'll stay still. Worst case, he prepares a fireball (he will sidestep), which is fine.
 
 For the last Godskin, I recommend [2 WAR1 and 1 Phalanx to be safe](https://youtu.be/9a0XocTjluA?t=3595) and possibly get an early kill (if it's the Noble, he tends to run at you). If it's the Apostle, prepare a mana potion — you'll need to stun him with a second Phalanx.
 
@@ -262,9 +263,9 @@ Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=2055" title="Godskin Duo" frameborder="0" allowfullscreen></iframe>
 
-### Maliketh — 10/10
+### Maliketh — 9/10
 
-The only 10/10 RNG fight. If he doesn't run, it's a death or, at best, a huge time loss and probably a reset, because your BPT (best possible time for this run) just exploded.
+The only 9/10 RNG fight. If he doesn't run, it's a death or, at best, a huge time loss and probably a reset, because your BPT (best possible time for this run) just exploded.
 
 [Here's a video of the fight.](https://youtu.be/6iQ1FQALROQ) The positioning for the first WAR1 is very precise because it avoids some poise or damage problems in P2.
 
@@ -278,7 +279,7 @@ Fight breakdown:
 
 ### Gideon — 1/10
 
-If you follow the [most recent strategy](https://youtu.be/asSD-qzF2CI), there's a 90% chance you kill him. If he double/triple rolls, unfortunately just run R1 and pray.
+If you follow the [following strategy](https://youtu.be/asSD-qzF2CI), there's a 90% chance you kill him. If he double/triple rolls, unfortunately just run R1 and pray.
 
 Visual marks (first the foot, then the hat):
 
@@ -290,26 +291,26 @@ Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=2423" title="Gideon" frameborder="0" allowfullscreen></iframe>
 
-### Godfrey — 1/10 (bad RNG can be slow but never fatal)
+### Godfrey — 2/10 (bad RNG can be slow but never fatal)
 
 If he doesn't do the right opener, [just add a JR1 and wait for an opener for the WAR1 stun](https://youtu.be/9a0XocTjluA?t=4005).
 
 "I keep getting stomped in P2…"
 
 - It's due to insufficient damage. Make sure you [crouch a little then WA](https://youtu.be/9a0XocTjluA?t=4020), roll, WA, and the freeze effect should trigger. It's always due to not enough damage.
-- End your P1 with a WA. When he spins, don't sprint — run normally to avoid losing stamina. Otherwise you won't have enough in P2 to avoid his last attack.
+- End your P1 with a WAWAR1. When he spins in P2, don't sprint — strafe normally to avoid losing stamina. Otherwise you won't have enough in P2 to avoid his last attack. Your stamina when triggering the WAR1 in P2 should be slightly above the mana.
 
 Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=2553" title="Godfrey" frameborder="0" allowfullscreen></iframe>
 
-### Radagon — 1/10 (worst case: a bad opener costing around 5 to 8 s)
+### Radagon — 2/10 (worst case: a bad opener (the grab) costing around 5 to 10 s)
 
 **Phase 1:**
 
-Always check that your initial damage is 4000 after the 2 WA (he goes to P2 at 4003 damage dealt). To regulate this, always roll to the right side behind him. That way he'll rotate and take all the ticks.
+Always check that your initial damage is around 4000 after the 2 WA (he goes to P2 at 4003 damage dealt). To regulate this, always roll to the right side behind him. That way he'll rotate and take all the ticks.
 
-If he spams close-combat attacks, find a window to just do an R1 and prepare to continue the strategy as usual. He'll instantly go to P2. If you have time, do an R1 with the rapier before the JR2 to secure the stun.
+If he spams close-combat attacks, find a window to just do an R1 and prepare to continue the strategy as usual. He'll instantly go to P2. If you have time, do an R1 with the rapier before the JR2 to secure the stun. He might buffer attacks even if you pass after 4003, so always be ready to dodge.
 
 **Phase 2:**
 
@@ -321,7 +322,7 @@ If you roll too early, you die.
 
 If you roll too late, you stun him 60% of the time, but 40% of the time he'll have time to teleport and spam his P2 attacks and you're dead.
 
-With a perfect roll, you'll start to see the teleport animation, but you'll be able to stop it in time. The window is about 5 frames, so it's doable regularly with some practice. The visual cue is the hammer pointing vertically down as in the screenshot.
+With a perfect roll, you'll start to see the teleport animation, but you'll be able to stop it in time. The window is about 5 frames, so it's doable regularly with some practice. The visual cue is the hammer pointing vertically down as in the screenshot. Don't move before rolling, or you'll be too far from him to stun.
 
 Even if he teleports back, at that point just lay down 2 WAR1 and roll his first slam. He should be dead right after.
 
@@ -331,14 +332,15 @@ Fight breakdown:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/GwM2SCEX1dQ?start=2804" title="Radagon" frameborder="0" allowfullscreen></iframe>
 
-### Elden Beast — 3/10 (bad opener and bad Elden Stars)
+### Elden Beast — 5/10 (bad opener and bad Elden Stars)
 
+These tips are especially applicable if you take the grace before Godfrey to level up, which is the safe strategy.
 This one is tricky and harder than it looks. Some beginner tips:
 
 1. After killing Radagon, have your mana bar full.
-2. Buffer sprint before the cinematic to get better positioning. Before doing the Phalanx, take just 2 steps to benefit from the buffer. Your Phalanx should be leaving your body exactly when you start your first WAR1.
+2. Buffer sprint before the cinematic to get better positioning. Your Phalanx should be leaving your body exactly when you start your first WAR1.
 3. When you go behind the beast, you can stop at his feet — don't go too far or you'll have a hard time landing the JR2.
-4. After your WAR1, keep sprinting and JR2 to the position where the beast should dive. This makes a difference in canceling his ring animation properly.
+4. After your WAR1, keep sprinting and JR2 to the position where the beast should dive. This makes a difference in having time to cancel his ring animation properly.
 5. Regenerate your stamina 2 times, not more. Otherwise you won't break the poise. When the beast goes down, you should be almost full stamina.
 6. I recommend staying at the center, slightly right side of the beast during the 2 WAR1. Then crouch sprint for 0.5 seconds and do the last WAR1 diagonally left so the beast takes ticks while diving. [Here's an example.](https://www.youtube.com/watch?v=y2JZOD4s8f4) If you managed your stamina perfectly, you won't even need to crouch anymore.
 7. Training tip: same as Radagon, save your position right in front of Radagon. Load your save, nodeath + onehit, teleport R1. Remove nodeath and onehit, take two mana potions to replicate the end of the Radagon fight.
@@ -353,7 +355,7 @@ Because you need to lay down your WAR1 trail diagonally so that when he steps ba
 
 ---
 
-The RNG in this route is heavier than BHF, but still manageable. Maliketh remains the real troublemaker, while the bird — often the biggest concern for new runners — is actually quick to learn. With about 10 hours of practice you'll start to understand it, and after a few days you should succeed roughly half the time, even if it takes up to 8 or 9 minutes into the run.
+The RNG in this route is heavier than BHF, but still manageable. Maliketh remains the real troublemaker, while the bird — often the biggest concern for new runners — is actually ok since you can die, come back and kill it without too much suffering.
 
 Good RNG and, most important of all, have fun practicing AND running!
 
